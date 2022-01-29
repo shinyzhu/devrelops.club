@@ -14,7 +14,7 @@ body:
     attributes:
       label: 活动举办日期
       description: 请按照“年-月-日“（yyyy-MM-dd）的格式输入活动举办的开始日期。
-      placeholder: 2022-10-24
+      placeholder: "2022-10-24"
     validations:
       required: true
   - type: input
@@ -22,7 +22,7 @@ body:
     attributes:
       label: 活动举办结束日期
       description: 请按照“年-月-日“（yyyy-MM-dd）的格式输入活动举办的结束日期。
-      placeholder: 2022-10-25
+      placeholder: "2022-10-25"
     validations:
       required: true
   - type: textarea
