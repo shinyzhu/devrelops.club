@@ -66,8 +66,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://devrelops.club/)
+      label: 行为准则
+      description: 该项目的信息是公开的，在提交之前请确认所有填写的信息适合公开。
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: 我愿意遵守该项目的行为准则
           required: true
