@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <h2>开发者活动列表</h2>
 <p><a href="events">查看更多活动</a></p>
 
