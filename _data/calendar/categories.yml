@@ -1,0 +1,9 @@
+- id: holiday
+  name: Public Holiday
+  color: "#41B0F6"
+- id: workday
+  name: Special Workday
+  color: "#41B0F6"
+- id: event
+  name: Event
+  color: "#004D81"
