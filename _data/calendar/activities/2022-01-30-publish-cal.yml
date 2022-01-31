@@ -1,5 +1,6 @@
 name: "DevRelOps 开发者活动日历发布会"
 description: "很高兴发布开发者活动日历，这里收集整理了面向开发者的活动信息，欢迎订阅日历。"
+organizer: "DevRelOps Club"
 url: "https://devrelops.club/events"
 location: "Online"
 category: "event"
