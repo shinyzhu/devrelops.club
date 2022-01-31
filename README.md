@@ -12,3 +12,4 @@
 
 也可以通过提交New Event的Issue，我会转换成活动数据。
 
+![cal-os-x-demo](assets/img/cal-os-x-demo.png)
