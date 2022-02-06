@@ -13,3 +13,8 @@
 也可以通过提交New Event的Issue，我会转换成活动数据。
 
 ![cal-os-x-demo](assets/img/cal-os-x-demo.png)
+
+
+## 使用的组件
+
+- [FullCalendar](https://fullcalendar.io/)
