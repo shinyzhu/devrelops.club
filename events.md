@@ -1,12 +1,29 @@
 ---
 layout: default
-title: 开发者活动列表
+title: 开发者活动日历
 ---
 
-<h2>开发者活动列表</h2>
-<ul>
-{% for activity in site.data.calendar.activities %}{% assign entry = activity[1] %}
-<li id="event-{{entry.id}}"><a href="{{ entry.url }}">{{ entry.name }} [{{ site.time | date: '%Y' }}{{ entry.date | date: "%m%d"}}]</a></li>
-{% endfor %}
-</ul>
+<link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/locales-all.min.js'></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+        headerToolbar: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+        },
+        locale: 'zh-cn',
+        navLinks: true, // can click day/week names to navigate views
+        initialView: 'dayGridMonth',
+        events: 'events.json'
+    });
 
+    calendar.render();
+});
+</script>
+
+<h2>活动日历</h2>
+<div id="calendar"></div>

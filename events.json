@@ -1,0 +1,10 @@
+---
+layout: none
+---
+[{% for activity in site.data.calendar.activities %}{% assign entry = activity[1] %}
+{
+    "title": "{{ entry.name }}",
+    "start": "{{ entry.date }}",
+    "end": "{{ entry.date_end }}"
+},
+{% endfor %}{}]
