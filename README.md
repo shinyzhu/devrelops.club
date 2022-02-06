@@ -18,3 +18,19 @@
 ## 使用的组件
 
 - [FullCalendar](https://fullcalendar.io/)
+
+## 本地开发和测试
+
+使用Jekyll来实现网站，托管在GitHub Pages。
+
+启动本地服务：
+
+```bash
+nerdctl run --rm -it -v $PWD:/srv/jekyll -p 4000:4000 jekyll/jekyll jekyll serve
+```
+
+清理缓存：
+
+```bash
+rm -rf _site .jekyll-cache .jekyll-metadata
+```
