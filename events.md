@@ -27,3 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h2>活动日历</h2>
 <div id="calendar"></div>
+
+<h2>欢迎添加你的技术活动</h2>
+<p>GitHub 代码库：<https://github.com/shinyzhu/devrelops.club></p>
