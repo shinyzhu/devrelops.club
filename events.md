@@ -29,4 +29,4 @@ document.addEventListener('DOMContentLoaded', function() {
 <div id="calendar"></div>
 
 <h2>欢迎添加你的技术活动</h2>
-<p>GitHub 代码库：<https://github.com/shinyzhu/devrelops.club></p>
+<p>GitHub 代码库：<a href="https://github.com/shinyzhu/devrelops.club">https://github.com/shinyzhu/devrelops.club</a></p>
