@@ -16,7 +16,6 @@ CATEGORIES:{% for category in site.data.calendar.categories %}{% if category.id 
 entry.category %}{{ category.name }}{% endif %}{% endfor %}
 DESCRIPTION:{{ entry.description | strip | replace: "[^\r]\n", "\r\n" }}
 ORGANIZER;CN={{ entry.organizer }}:mailto:{{ entry.email }}
-CONTACT:{{ entry.contact }}
 URL:{{ entry.url }}
 LOCATION:{{ entry.location }}
 DTSTART;VALUE=DATE:{{ site.time | date: '%Y' }}{{ entry.date | date: "%m%d"}}
